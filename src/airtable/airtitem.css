@@ -1,0 +1,15 @@
+.airtitem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 15px;
+}
+
+img {
+  width: 300px;
+}
+
+.info {
+  max-width: 500px;
+}
