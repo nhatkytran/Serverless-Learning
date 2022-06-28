@@ -1,6 +1,6 @@
 const students = require('../assets/students');
 
-exports.handler = async function (event, context) {
+exports.handler = async function () {
   return {
     headers: {
       'Access-Control-Allow-Origin': '*',
