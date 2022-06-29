@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { default: axios } = require('axios');
 
-const url = `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.WEATHER_API_KEY}&units=metric&q=`;
+const url = `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.WEATHER_API_KEY_PRIVATE}&units=metric&q=`;
 
 exports.handler = async function (event) {
   const method = event.httpMethod;
